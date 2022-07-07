@@ -1,7 +1,11 @@
-# covid-dataset-for-xai
-Created a compound dataset using python for finding covid factors using XAI 
+# XAI-Covid-19
+First created a compound dataset using python for finding covid factors using XAI 
 
-The dataset used in this research was a combination of different datasets such as the covid-19 cases [dataset](https://www.kaggle.com/sudalairajkumar/covid19-in-india) from where the confirmed case till Dec-31-2021 for three states Kerala, Maharashtra and Tamil Nadu were taken and new cases were found by shifting and subtracting the confirmed cases. Temperature and humidity datasets were taken from [rp5](https://rp5.ru/Weather_in_India) and combined with the respective dates of the new cases dataset. 
+## Details of the ipynb files - 
 
+1. [States-Climate-Processing.ipynb](https://github.com/suvanbalu/XAI-Covid-19/tree/main/States-Climate-Processing.ipynb) - Dataset Processing
+2. [Rt analysis + Final.ipynb](https://github.com/suvanbalu/XAI-Covid-19/tree/main/Rt%20analysis%20%2B%20Final.ipynb) - Adding Reproduction Number
+3. [Ranging.ipynb](https://github.com/suvanbalu/XAI-Covid-19/tree/main/Ranging.ipynb) - Ranging values to make it more discrete
+4. [Machine learning + xai.ipynb](https://github.com/suvanbalu/XAI-Covid-19/tree/main/Machine%20learning%20%2B%20xai.ipynb) - Final Model Creation and XAI analysis part
 
-Part 2 will be pushed once our research paper is published ! 
+## Dataset folder contains the raw and processed data in the research
